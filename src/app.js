@@ -6,7 +6,8 @@ import store from './store/store';
 import { addUsers } from './actions/users';
 import Header from './components/Header';
 import { Provider } from 'react-redux';
-// import { Provider } from 'react=redux';
+import './css/styles.css';
+
 
 class App extends React.Component {
     componentDidMount() {
